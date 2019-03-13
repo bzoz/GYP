@@ -978,6 +978,7 @@ _Same(_midl, 'DefaultCharType',
 _Same(_midl, 'TargetEnvironment',
       _Enumeration(['NotSet',
                     'Win32',  # /env win32
+                    'ARM64',  # /env arm64
                     'Itanium',  # /env ia64
                     'X64']))  # /env x64
 _Same(_midl, 'EnableErrorChecks',
